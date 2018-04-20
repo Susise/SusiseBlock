@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F9BFDF82089B3A1004241E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFDF72089B3A1004241E5 /* AppDelegate.m */; };
+		1F9BFDFB2089B3A1004241E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFDFA2089B3A1004241E5 /* ViewController.m */; };
+		1F9BFDFE2089B3A1004241E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9BFDFC2089B3A1004241E5 /* Main.storyboard */; };
+		1F9BFE002089B3A2004241E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9BFDFF2089B3A2004241E5 /* Assets.xcassets */; };
+		1F9BFE032089B3A2004241E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9BFE012089B3A2004241E5 /* LaunchScreen.storyboard */; };
+		1F9BFE062089B3A2004241E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFE052089B3A2004241E5 /* main.m */; };
+		1F9BFE102089B3A2004241E5 /* SusiseBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFE0F2089B3A2004241E5 /* SusiseBlockTests.m */; };
+		1F9BFE1B2089B3A2004241E5 /* SusiseBlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFE1A2089B3A2004241E5 /* SusiseBlockUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F9BFE0C2089B3A2004241E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9BFDEB2089B3A1004241E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9BFDF22089B3A1004241E5;
+			remoteInfo = SusiseBlock;
+		};
+		1F9BFE172089B3A2004241E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9BFDEB2089B3A1004241E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9BFDF22089B3A1004241E5;
+			remoteInfo = SusiseBlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F9BFDF32089B3A1004241E5 /* SusiseBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SusiseBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9BFDF62089B3A1004241E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F9BFDF72089B3A1004241E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F9BFDF92089B3A1004241E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F9BFDFA2089B3A1004241E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F9BFDFD2089B3A1004241E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F9BFDFF2089B3A2004241E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F9BFE022089B3A2004241E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F9BFE042089B3A2004241E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9BFE052089B3A2004241E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F9BFE0B2089B3A2004241E5 /* SusiseBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SusiseBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9BFE0F2089B3A2004241E5 /* SusiseBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SusiseBlockTests.m; sourceTree = "<group>"; };
+		1F9BFE112089B3A2004241E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9BFE162089B3A2004241E5 /* SusiseBlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SusiseBlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9BFE1A2089B3A2004241E5 /* SusiseBlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SusiseBlockUITests.m; sourceTree = "<group>"; };
+		1F9BFE1C2089B3A2004241E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F9BFDF02089B3A1004241E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9BFE082089B3A2004241E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9BFE132089B3A2004241E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9BFDEA2089B3A1004241E5 = {
+			isa = PBXGroup;
+			children = (
+				1F9BFDF52089B3A1004241E5 /* SusiseBlock */,
+				1F9BFE0E2089B3A2004241E5 /* SusiseBlockTests */,
+				1F9BFE192089B3A2004241E5 /* SusiseBlockUITests */,
+				1F9BFDF42089B3A1004241E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F9BFDF42089B3A1004241E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9BFDF32089B3A1004241E5 /* SusiseBlock.app */,
+				1F9BFE0B2089B3A2004241E5 /* SusiseBlockTests.xctest */,
+				1F9BFE162089B3A2004241E5 /* SusiseBlockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9BFDF52089B3A1004241E5 /* SusiseBlock */ = {
+			isa = PBXGroup;
+			children = (
+				1F9BFDF62089B3A1004241E5 /* AppDelegate.h */,
+				1F9BFDF72089B3A1004241E5 /* AppDelegate.m */,
+				1F9BFDF92089B3A1004241E5 /* ViewController.h */,
+				1F9BFDFA2089B3A1004241E5 /* ViewController.m */,
+				1F9BFDFC2089B3A1004241E5 /* Main.storyboard */,
+				1F9BFDFF2089B3A2004241E5 /* Assets.xcassets */,
+				1F9BFE012089B3A2004241E5 /* LaunchScreen.storyboard */,
+				1F9BFE042089B3A2004241E5 /* Info.plist */,
+				1F9BFE052089B3A2004241E5 /* main.m */,
+			);
+			path = SusiseBlock;
+			sourceTree = "<group>";
+		};
+		1F9BFE0E2089B3A2004241E5 /* SusiseBlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9BFE0F2089B3A2004241E5 /* SusiseBlockTests.m */,
+				1F9BFE112089B3A2004241E5 /* Info.plist */,
+			);
+			path = SusiseBlockTests;
+			sourceTree = "<group>";
+		};
+		1F9BFE192089B3A2004241E5 /* SusiseBlockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9BFE1A2089B3A2004241E5 /* SusiseBlockUITests.m */,
+				1F9BFE1C2089B3A2004241E5 /* Info.plist */,
+			);
+			path = SusiseBlockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F9BFDF22089B3A1004241E5 /* SusiseBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9BFE1F2089B3A2004241E5 /* Build configuration list for PBXNativeTarget "SusiseBlock" */;
+			buildPhases = (
+				1F9BFDEF2089B3A1004241E5 /* Sources */,
+				1F9BFDF02089B3A1004241E5 /* Frameworks */,
+				1F9BFDF12089B3A1004241E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SusiseBlock;
+			productName = SusiseBlock;
+			productReference = 1F9BFDF32089B3A1004241E5 /* SusiseBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F9BFE0A2089B3A2004241E5 /* SusiseBlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9BFE222089B3A2004241E5 /* Build configuration list for PBXNativeTarget "SusiseBlockTests" */;
+			buildPhases = (
+				1F9BFE072089B3A2004241E5 /* Sources */,
+				1F9BFE082089B3A2004241E5 /* Frameworks */,
+				1F9BFE092089B3A2004241E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9BFE0D2089B3A2004241E5 /* PBXTargetDependency */,
+			);
+			name = SusiseBlockTests;
+			productName = SusiseBlockTests;
+			productReference = 1F9BFE0B2089B3A2004241E5 /* SusiseBlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F9BFE152089B3A2004241E5 /* SusiseBlockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9BFE252089B3A2004241E5 /* Build configuration list for PBXNativeTarget "SusiseBlockUITests" */;
+			buildPhases = (
+				1F9BFE122089B3A2004241E5 /* Sources */,
+				1F9BFE132089B3A2004241E5 /* Frameworks */,
+				1F9BFE142089B3A2004241E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9BFE182089B3A2004241E5 /* PBXTargetDependency */,
+			);
+			name = SusiseBlockUITests;
+			productName = SusiseBlockUITests;
+			productReference = 1F9BFE162089B3A2004241E5 /* SusiseBlockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F9BFDEB2089B3A1004241E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = S;
+				TargetAttributes = {
+					1F9BFDF22089B3A1004241E5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1F9BFE0A2089B3A2004241E5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1F9BFDF22089B3A1004241E5;
+					};
+					1F9BFE152089B3A2004241E5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1F9BFDF22089B3A1004241E5;
+					};
+				};
+			};
+			buildConfigurationList = 1F9BFDEE2089B3A1004241E5 /* Build configuration list for PBXProject "SusiseBlock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F9BFDEA2089B3A1004241E5;
+			productRefGroup = 1F9BFDF42089B3A1004241E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9BFDF22089B3A1004241E5 /* SusiseBlock */,
+				1F9BFE0A2089B3A2004241E5 /* SusiseBlockTests */,
+				1F9BFE152089B3A2004241E5 /* SusiseBlockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F9BFDF12089B3A1004241E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9BFE032089B3A2004241E5 /* LaunchScreen.storyboard in Resources */,
+				1F9BFE002089B3A2004241E5 /* Assets.xcassets in Resources */,
+				1F9BFDFE2089B3A1004241E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9BFE092089B3A2004241E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9BFE142089B3A2004241E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9BFDEF2089B3A1004241E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9BFDFB2089B3A1004241E5 /* ViewController.m in Sources */,
+				1F9BFE062089B3A2004241E5 /* main.m in Sources */,
+				1F9BFDF82089B3A1004241E5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9BFE072089B3A2004241E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9BFE102089B3A2004241E5 /* SusiseBlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9BFE122089B3A2004241E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9BFE1B2089B3A2004241E5 /* SusiseBlockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F9BFE0D2089B3A2004241E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9BFDF22089B3A1004241E5 /* SusiseBlock */;
+			targetProxy = 1F9BFE0C2089B3A2004241E5 /* PBXContainerItemProxy */;
+		};
+		1F9BFE182089B3A2004241E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9BFDF22089B3A1004241E5 /* SusiseBlock */;
+			targetProxy = 1F9BFE172089B3A2004241E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F9BFDFC2089B3A1004241E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9BFDFD2089B3A1004241E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F9BFE012089B3A2004241E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9BFE022089B3A2004241E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F9BFE1D2089B3A2004241E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F9BFE1E2089B3A2004241E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F9BFE202089B3A2004241E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SusiseBlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = S.SusiseBlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F9BFE212089B3A2004241E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SusiseBlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = S.SusiseBlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F9BFE232089B3A2004241E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SusiseBlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = S.SusiseBlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SusiseBlock.app/SusiseBlock";
+			};
+			name = Debug;
+		};
+		1F9BFE242089B3A2004241E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SusiseBlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = S.SusiseBlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SusiseBlock.app/SusiseBlock";
+			};
+			name = Release;
+		};
+		1F9BFE262089B3A2004241E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SusiseBlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = S.SusiseBlockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SusiseBlock;
+			};
+			name = Debug;
+		};
+		1F9BFE272089B3A2004241E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SusiseBlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = S.SusiseBlockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SusiseBlock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9BFDEE2089B3A1004241E5 /* Build configuration list for PBXProject "SusiseBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9BFE1D2089B3A2004241E5 /* Debug */,
+				1F9BFE1E2089B3A2004241E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9BFE1F2089B3A2004241E5 /* Build configuration list for PBXNativeTarget "SusiseBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9BFE202089B3A2004241E5 /* Debug */,
+				1F9BFE212089B3A2004241E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9BFE222089B3A2004241E5 /* Build configuration list for PBXNativeTarget "SusiseBlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9BFE232089B3A2004241E5 /* Debug */,
+				1F9BFE242089B3A2004241E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9BFE252089B3A2004241E5 /* Build configuration list for PBXNativeTarget "SusiseBlockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9BFE262089B3A2004241E5 /* Debug */,
+				1F9BFE272089B3A2004241E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F9BFDEB2089B3A1004241E5 /* Project object */;
+}
